@@ -52,7 +52,7 @@ export default function HomePage() {
       }}
     >
       {/* Nav */}
-      <nav style={{ position:"sticky", top:0, zIndex:50, background:"rgba(245,245,247,0.85", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border)", padding:"0 24px" }}>
+      <nav style={{ position:"sticky", top:0, zIndex:50, background:"rgba(245,245,247,0.85)", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border)", padding:"0 24px" }}>
         <div style={{ maxWidth:720, margin:"0 auto", height:60, display:"flex", alignItems:"center", justifyContent:"space-between" }}>
           <div style={{ display:"flex", alignItems:"center", gap:10 }}>
             <span style={{ fontFamily:"var(--font-display)", fontWeight:800, fontSize:20, background:"linear-gradient(135deg, #111118 40%, var(--accent-bright))", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", letterSpacing:"-0.02em" }}>
