@@ -74,10 +74,10 @@ export default function AdminPage() {
   return (
     <div style={{ minHeight:"100vh", background:"var(--bg)", backgroundImage:"radial-gradient(ellipse 60% 40% at 50% -10%, rgba(124,106,245,0.10) 0%, transparent 70%)" }}>
       {/* Nav */}
-      <nav style={{ position:"sticky", top:0, zIndex:50, background:"rgba(10,10,15,0.85)", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border)", padding:"0 24px" }}>
+      <nav style={{ position:"sticky", top:0, zIndex:50, background:"rgba(245,245,247,0.85)", backdropFilter:"blur(16px)", borderBottom:"1px solid var(--border)", padding:"0 24px" }}>
         <div style={{ maxWidth:680, margin:"0 auto", height:60, display:"flex", alignItems:"center", justifyContent:"space-between" }}>
           <div style={{ display:"flex", alignItems:"center", gap:10 }}>
-            <Link href="/" style={{ fontFamily:"var(--font-display)", fontWeight:800, fontSize:20, background:"linear-gradient(135deg, #fff 40%, var(--accent-bright))", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", textDecoration:"none", letterSpacing:"-0.02em" }}>
+            <Link href="/" style={{ fontFamily:"var(--font-display)", fontWeight:800, fontSize:20, background:"linear-gradient(135deg, #111118 40%, var(--accent-bright))", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", textDecoration:"none", letterSpacing:"-0.02em" }}>
               SyncUp
             </Link>
             <span style={{ fontSize:11, fontWeight:600, background:"rgba(240,96,96,0.12)", color:"#f06060", border:"1px solid rgba(240,96,96,0.3)", borderRadius:5, padding:"2px 7px", fontFamily:"var(--font-display)", letterSpacing:"0.06em", textTransform:"uppercase" }}>
